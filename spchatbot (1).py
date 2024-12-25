@@ -63,5 +63,5 @@ elif input_mode == 'Speech':
         response = chatbot_response(user_speech)
         st.write("Chatbot:", response)
 
-!streamlit run app.py
+
 
