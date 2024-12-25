@@ -12,10 +12,6 @@ import nltk
 import streamlit as st
 import speech_recognition as sr
 
-from google.colab import drive
-drive.mount('/content/drive')
-
-file_path = '/content/chatdata.txt'
 
 # Load and preprocess chatbot data
 def load_chatbot_data(file_path):
